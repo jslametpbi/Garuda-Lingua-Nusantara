@@ -1,0 +1,21 @@
+GARUDA LINGUA NUSANTARA - DEPLOYMENT GUIDE
+
+Recommended repository name:
+Garuda-Lingua-Nusantara
+
+Recommended permanent URL after deployment:
+https://jslametpbi.github.io/Garuda-Lingua-Nusantara/
+
+Steps:
+1. Extract this zip.
+2. Create GitHub repository: Garuda-Lingua-Nusantara.
+3. Upload all extracted files to the repository root.
+4. Go to Settings > Pages.
+5. Choose Deploy from a branch.
+6. Select main branch and / root folder.
+7. Save and open the published site URL.
+
+Important:
+- index.html must stay at the root.
+- Do not upload only the zip file.
+- Upload the folders and files inside the extracted package.
