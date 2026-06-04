@@ -1,0 +1,19 @@
+GARUDA LINGUA NUSANTARA - EASY GITHUB DEPLOY
+
+1. Extract this ZIP.
+2. Create a GitHub repository named: Garuda-Lingua-Nusantara
+3. Upload ALL extracted files and folders to the repository root.
+4. Make sure index.html is visible directly in the root.
+5. Open repository Settings > Pages.
+6. Choose: Deploy from a branch > main > / root > Save.
+7. Open: https://jslametpbi.github.io/Garuda-Lingua-Nusantara/
+
+Admin / Lecturer Dashboard:
+- Open the Admin menu.
+- Enter authorized PIN: JS2026
+- Use the dashboard to edit module content, create materials, create assessments, adjust province voice-map routes, and export/import backup data.
+
+Notes:
+- This is a static GitHub Pages app.
+- Admin edits are saved in the browser local storage.
+- After important edits, use Export JSON in the Admin dashboard to keep a backup.

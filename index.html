@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Garuda Lingua Nusantara | Integrated Monument Learning Platform</title>
+  <meta name="description" content="Garuda Lingua Nusantara integrates Garuda-Nusantara philosophy with English Language Teaching, ELF pronunciation, global intelligibility, AI literacy, ESP, digital learning, research ethics, Nusantara heritage, learning tasks, assessments, voice map, and protected admin/lecturer dashboard." />
+  <meta property="og:title" content="Garuda Lingua Nusantara" />
+  <meta property="og:description" content="Interactive Garuda-Nusantara monument learning platform with rotatable symbolic spots, complete learning modules, assessments, QR access, and Indonesia Voice Map." />
+  <meta property="og:image" content="assets/img/social-card.jpg" />
+  <meta name="theme-color" content="#191205" />
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+  <link rel="manifest" href="assets/manifest.json" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <canvas id="ambientCanvas" aria-hidden="true"></canvas>
+  <header class="topbar" id="top">
+    <a class="brand" href="#home" aria-label="Garuda Lingua Nusantara home">
+      <span class="brand-mark">GLN</span>
+      <span class="brand-text"><strong>Garuda Lingua Nusantara</strong><em>Voice · Knowledge · Intelligibility · Nusantara</em></span>
+    </a>
+    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#home">Home</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#monument-spots">Monument Spots</a>
+      <a href="#learning-studio">Learning Studio</a>
+      <a href="#voice-map">Voice Map</a>
+      <a href="#dossier">Dossier</a>
+      <a href="#admin">Admin</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="hero shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow">Integrated Garuda–Nusantara Learning Monument</p>
+        <h1>Garuda Lingua Nusantara</h1>
+        <p class="lead">An interactive scholarly monument where Garuda, manuscript, luminous orb, wings, and archipelagic base become connected learning routes for language education, pronunciation, intelligibility, AI literacy, ESP, digital learning, ethics, and heritage.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#monument-spots">Explore Monument Spots</a>
+          <a class="btn" href="#learning-studio">Open Learning Studio</a>
+        </div>
+        <div class="field-strip" aria-label="Integrated learning fields">
+          <button type="button" data-module-button="elt">ELT</button>
+          <button type="button" data-module-button="elf">ELF Pronunciation</button>
+          <button type="button" data-module-button="intelligibility">Global Intelligibility</button>
+          <button type="button" data-module-button="ai">AI Literacy</button>
+          <button type="button" data-module-button="esp">ESP</button>
+          <button type="button" data-module-button="digital">Digital Learning</button>
+          <button type="button" data-module-button="ethics">Research Ethics</button>
+          <button type="button" data-module-button="heritage">Nusantara Heritage</button>
+        </div>
+      </div>
+      <figure class="hero-art reveal" id="heroFigure">
+        <div class="image-halo"></div>
+        <img src="assets/img/monument-wide.jpg" alt="Full Garuda Lingua Nusantara monument concept with Garuda wings, manuscript, orb, and Nusantara base" />
+        <figcaption>Full monument visualization: Garuda body, luminous knowledge orb, manuscript pages, voice/digital wings, and archipelagic base.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section compact-section reveal" id="philosophy">
+      <div class="section-heading split">
+        <div>
+          <p class="eyebrow">Design Philosophy</p>
+          <h2>Garuda Nusantara as scholarly architecture</h2>
+        </div>
+        <p>The design is read as an academic landscape. Each part of the monument carries a learning function, a symbolic meaning, and a field-based route for visitors, students, lecturers, and international audiences.</p>
+      </div>
+      <div class="philosophy-grid image-cards">
+        <article data-part="heritage"><img src="assets/img/part-base.jpg" alt="Archipelagic base of the monument" /><span>01</span><h3>Archipelagic Base</h3><p>Nusantara as multilingual memory, cultural plurality, maritime connection, and local knowledge rising into global scholarship.</p><button type="button" data-module-button="heritage">Open Heritage Route</button></article>
+        <article data-part="elt"><img src="assets/img/part-manuscript.jpg" alt="Open manuscript detail" /><span>02</span><h3>Open Manuscript</h3><p>Teaching, curriculum design, academic writing, publication culture, and classroom knowledge made visible.</p><button type="button" data-module-button="elt">Open ELT Route</button></article>
+        <article data-part="ethics"><img src="assets/img/monument-wide.jpg" alt="Garuda body detail" /><span>03</span><h3>Garuda Body</h3><p>Intellectual dignity, ethical guardianship, responsibility, and the moral foundation of research-based education.</p><button type="button" data-module-button="ethics">Open Ethics Route</button></article>
+        <article data-part="intelligibility"><img src="assets/img/part-orb.jpg" alt="Luminous knowledge orb" /><span>04</span><h3>Luminous Orb</h3><p>Shared meaning, global intelligibility, intercultural communication, and international collaboration.</p><button type="button" data-module-button="intelligibility">Open Intelligibility Route</button></article>
+        <article data-part="elf"><img src="assets/img/part-left-wing.jpg" alt="Left voice wing detail" /><span>05</span><h3>Voice Wing</h3><p>Accent diversity, ELF pronunciation, rhythm, stress, speaking confidence, and intelligible communication.</p><button type="button" data-module-button="elf">Open ELF Route</button></article>
+        <article data-part="ai"><img src="assets/img/part-right-wing.jpg" alt="Digital wing detail" /><span>06</span><h3>Digital Wing</h3><p>AI literacy, responsible prompting, digital pedagogy, AR interpretation, and human-centered educational technology.</p><button type="button" data-module-button="ai">Open AI Route</button></article>
+      </div>
+    </section>
+
+    <section class="section" id="monument-spots">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Monument Spots</p>
+        <h2>Rotatable symbolic route viewer</h2>
+        <p>Use the rotation controls or select a philosophy-based spot. The selected route opens learning materials, compact QR access, narration, and assessment.</p>
+      </div>
+      <div class="spot-layout">
+        <div class="viewer-panel reveal">
+          <div class="viewer-toolbar" aria-label="Monument rotation controls">
+            <button class="icon-btn" id="rotateLeft" type="button" aria-label="Rotate left">↶</button>
+            <input id="rotateSlider" type="range" min="-32" max="32" value="0" aria-label="Monument rotation" />
+            <button class="icon-btn" id="rotateRight" type="button" aria-label="Rotate right">↷</button>
+            <button class="icon-btn wide" id="autoRotate" type="button">Auto</button>
+            <button class="icon-btn wide" id="resetRotate" type="button">Reset</button>
+          </div>
+          <div class="monument-stage" id="monumentStage" style="--ry:0deg">
+            <div class="monument-plate" id="monumentPlate">
+              <img src="assets/img/monument-wide.jpg" alt="Clickable Garuda Lingua Nusantara monument hotspot map" />
+              <button class="spot active" style="--x:50%;--y:71%" data-spot="elt" aria-label="Open manuscript spot for English Language Teaching"><span>ELT</span><small>Open manuscript</small></button>
+              <button class="spot" style="--x:25%;--y:30%" data-spot="elf" aria-label="Left wing spot for ELF Pronunciation"><span>ELF</span><small>Voice wing</small></button>
+              <button class="spot" style="--x:51%;--y:39%" data-spot="intelligibility" aria-label="Knowledge orb spot for Global Intelligibility"><span>GI</span><small>Knowledge orb</small></button>
+              <button class="spot" style="--x:78%;--y:31%" data-spot="ai" aria-label="Right wing spot for AI Literacy"><span>AI</span><small>Digital wing</small></button>
+              <button class="spot" style="--x:42%;--y:64%" data-spot="esp" aria-label="Manuscript route spot for English for Specific Purposes"><span>ESP</span><small>Discipline route</small></button>
+              <button class="spot" style="--x:69%;--y:55%" data-spot="digital" aria-label="Digital lines spot for Digital Learning"><span>DL</span><small>AR layer</small></button>
+              <button class="spot" style="--x:52%;--y:87%" data-spot="ethics" aria-label="Foundation spot for Research Ethics"><span>RE</span><small>Foundation</small></button>
+              <button class="spot" style="--x:30%;--y:87%" data-spot="heritage" aria-label="Nusantara base spot for Nusantara Heritage"><span>NH</span><small>Archipelagic base</small></button>
+            </div>
+          </div>
+        </div>
+        <aside class="spot-card reveal" aria-live="polite">
+          <p class="eyebrow">Selected Learning Route</p>
+          <h3 id="spotTitle">English Language Teaching</h3>
+          <p id="spotAnchor" class="anchor-line">Open manuscript pages: pedagogy, curriculum design, assessment literacy, and reflective teaching.</p>
+          <div class="route-mini">
+            <strong id="spotFocus">Learning focus: classroom pedagogy and teacher agency.</strong>
+            <p id="spotActivity">Visitors analyze how a language classroom can support feedback, learner autonomy, inclusive participation, and research-informed teaching.</p>
+          </div>
+          <div class="button-row compact">
+            <a id="spotOpen" class="btn small primary" href="#module-elt">Open Module</a>
+            <button id="spotNarrate" class="btn small" type="button">Speaker</button>
+            <button id="spotAssessment" class="btn small" type="button">Assessment</button>
+            <button id="spotQrBtn" class="btn small" type="button">QR</button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="section learning-section" id="learning-studio">
+      <div class="section-heading split reveal">
+        <div>
+          <p class="eyebrow">Learning Studio</p>
+          <h2>Integrated English skills, materials, AI coach, and assessment</h2>
+        </div>
+        <p>Each route contains learning outcomes, input material, listening/speaking/reading/writing tasks, vocabulary and discourse practice, formative assessment, reflection, and field transfer.</p>
+      </div>
+      <div class="studio-shell reveal">
+        <aside class="module-nav" id="moduleNav" aria-label="Learning field selector"></aside>
+        <article class="module-view" id="moduleView" aria-live="polite"></article>
+      </div>
+    </section>
+
+    <section class="section" id="voice-map">
+      <div class="section-heading split reveal">
+        <div>
+          <p class="eyebrow">Voice Map</p>
+          <h2>Indonesia province routes for voice, field learning, and cultural connection</h2>
+        </div>
+        <p>Select a province on the Garuda-themed Indonesia map. Each province opens a voice prompt, learning field connection, province-based task, speaker, local recording, and module access.</p>
+      </div>
+      <div class="voice-map-shell reveal">
+        <div class="map-card">
+          <div class="map-toolbar">
+            <label for="provinceSearch">Province</label>
+            <input id="provinceSearch" type="search" placeholder="Search province..." autocomplete="off" />
+            <select id="fieldFilter" aria-label="Filter map by field"><option value="all">All fields</option></select>
+            <button class="btn tiny" id="resetMapFilter" type="button">Reset</button>
+          </div>
+          <div class="indonesia-map" id="indonesiaMap" role="img" aria-label="Clickable Indonesia province map"></div>
+        </div>
+        <aside class="province-panel" id="provincePanel" aria-live="polite"></aside>
+      </div>
+    </section>
+
+    <section class="section dossier-section" id="dossier">
+      <div class="section-heading reveal">
+        <p class="eyebrow">Scholarly Dossier</p>
+        <h2>Academic identity embedded in public learning architecture</h2>
+        <p>The platform frames the monument as a research-informed public artwork, learning station, and digital heritage system connected to language education and international scholarly contribution.</p>
+      </div>
+      <div class="dossier-grid reveal">
+        <article><h3>Concept Owner</h3><p><strong>Dr. Joko Slamet</strong></p><p>English Language Teaching, Linguistics, ESP, Technology-Enhanced Language Learning, AI-supported learning, research and development, and scholarly publishing.</p></article>
+        <article><h3>Core Contribution</h3><p>Transforms Garuda–Nusantara symbolism into an interactive learning architecture that promotes intelligibility, ethical scholarship, multilingual heritage, and responsible educational technology.</p></article>
+        <article><h3>International Value</h3><p>The work connects Indonesian cultural identity with global issues in English as a Lingua Franca, AI literacy, digital learning, ESP, intercultural intelligibility, and public pedagogy.</p></article>
+      </div>
+    </section>
+
+    <section class="section admin-section" id="admin">
+      <div class="section-heading split reveal">
+        <div>
+          <p class="eyebrow">Admin / Lecturer Dashboard</p>
+          <h2>Protected workspace for controlling content, materials, and assessments</h2>
+        </div>
+        <p>Use the protected workspace to manage module materials, assessment items, province voice prompts, field connections, and local backup data.</p>
+      </div>
+      <div class="admin-shell reveal" id="adminShell">
+        <form class="pin-card" id="pinForm">
+          <h3>Protected Access</h3>
+          <p>Enter the authorized access PIN to open the management dashboard.</p>
+          <input type="password" id="pinInput" placeholder="Enter PIN" autocomplete="current-password" />
+          <button class="btn primary" type="submit">Unlock Dashboard</button>
+          <p class="form-note" id="pinMessage"></p>
+        </form>
+        <div class="dashboard" id="dashboard" hidden>
+          <div class="dashboard-head">
+            <div><p class="eyebrow">Management Console</p><h3>Content, Material, Assessment, and Voice Map Control</h3></div>
+            <button class="btn small" id="lockDashboard" type="button">Lock</button>
+          </div>
+          <div class="admin-tabs" role="tablist" aria-label="Admin dashboard tabs">
+            <button class="active" type="button" data-admin-tab="content">Module Content</button>
+            <button type="button" data-admin-tab="materials">Material Designer</button>
+            <button type="button" data-admin-tab="assessment">Assessment Designer</button>
+            <button type="button" data-admin-tab="provinces">Voice Map Designer</button>
+            <button type="button" data-admin-tab="backup">Backup</button>
+          </div>
+          <div class="admin-view" id="adminView"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <button id="backToTop" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+
+  <div class="modal" id="qrModal" aria-hidden="true" role="dialog" aria-label="Compact QR learning route">
+    <div class="modal-card">
+      <button class="modal-close" id="closeQrModal" type="button" aria-label="Close QR modal">×</button>
+      <p class="eyebrow">Compact Learning QR</p>
+      <h3 id="qrModalTitle">Learning Route</h3>
+      <img id="qrModalImg" src="assets/qrs/module-elt.png" alt="QR code" />
+      <p id="qrModalText">Scan to open this route.</p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Dr. Joko Slamet. All rights reserved.</p>
+    <p>Garuda Lingua Nusantara · Voice · Knowledge · Intelligibility · Nusantara</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
